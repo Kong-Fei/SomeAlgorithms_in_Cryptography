@@ -47,6 +47,8 @@ long long gcd(long long a, long long b, long long& x, long long& y) {
 }
 
 int main() {
+	// 保证命令窗口(cmd)使用utf-8编码格式
+    system("chcp 65001");
 	cout << "-----------------------------参数&密钥产生-----------------------" << endl << endl;
 	long long p;
 	cout << "请输入一个素数(>=7)：p= ";

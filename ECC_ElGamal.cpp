@@ -53,6 +53,8 @@ vector<long long> add(long long Px, long long Py, long long Qx, long long Qy, in
 }
 // 主函数部分;
 int main() {
+	// 保证命令窗口(cmd)使用utf-8编码格式
+    system("chcp 65001");
 	cout << "--------------------密钥产生----------------------------" << endl<<endl;
 	int a,b,p;
 	cout << "请输入一个素数p,两个整数a,b（a,b<p)" << endl;

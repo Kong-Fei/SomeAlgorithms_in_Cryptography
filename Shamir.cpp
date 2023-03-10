@@ -54,6 +54,8 @@ long long oneMultiply(int locat_i, vector<long long>sk,int q,int k) {
 	return res;
 }
 int main() {
+	// 保证命令窗口(cmd)使用utf-8编码格式
+    system("chcp 65001");
 	cout << "-----------------------------秘密产生-----------------------" << endl<<endl;
 	int n, k;
 	cout << "请按顺序输入秘密分配参与人数n和门限值k：";
